@@ -2,8 +2,15 @@
     "name": "brainstud/file-vault",
     "description": "",
     "keywords": [
-        "laravel", "encrypt", "decrypt", "encryption", "decryption",
-        "cbc", "php", "file", "file-vault"
+        "laravel",
+        "encrypt",
+        "decrypt",
+        "encryption",
+        "decryption",
+        "cbc",
+        "php",
+        "file",
+        "file-vault"
     ],
     "homepage": "https://github.com/brainstudnl/file-vault",
     "license": "MIT",
@@ -17,7 +24,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^8.0 || ^9.0 ",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0",
         "ext-openssl": "*"
     },
     "require-dev": {
@@ -38,7 +45,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
